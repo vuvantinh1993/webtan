@@ -1,0 +1,10 @@
+2020-02-11T14:44:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_day_link(), 1 passed in C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\inc\breadcrumbs.php on line 938 and exactly 3 expected in C:\xampp\htdocs\tinhvu\wp-includes\link-template.php:549
+Stack trace:
+#0 C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\inc\breadcrumbs.php(938): get_day_link('2020')
+#1 C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\inc\breadcrumbs.php(427): OceanWP_Breadcrumb_Trail->add_day_archive_items()
+#2 C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\inc\breadcrumbs.php(205): OceanWP_Breadcrumb_Trail->add_items()
+#3 C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\inc\breadcrumbs.php(65): OceanWP_Breadcrumb_Trail->__construct(Array)
+#4 C:\xampp\htdocs\tinhvu\wp-content\themes\oceanwp\partials\page-header.php(62): oceanwp_breadcrumb_trail()
+#5 C:\xampp\htdocs\tinhvu\wp-includes\template.php(724): require('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\tinhvu\wp-includes\template.php(671): load_template('C:\\xampp\\htdocs...', fa in C:\xampp\htdocs\tinhvu\wp-includes\link-template.php on line 549
+
